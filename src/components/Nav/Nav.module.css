@@ -1,0 +1,18 @@
+.nav {
+  grid-area: n;
+  background: linear-gradient(rgb(15, 15, 15), rgb(32, 32, 32));
+  border-radius: 10px;
+}
+
+.item {
+    padding: 0 5px;
+    color: rgb(55, 175, 255);
+}
+
+.profile {
+  border-radius: 10px 10px 0 0;
+}
+
+.active {
+  background-color: rgb(27, 36, 44);
+}

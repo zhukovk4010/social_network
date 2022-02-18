@@ -1,0 +1,10 @@
+.header {
+    grid-area: h;
+    background: linear-gradient(rgb(15, 15, 15), rgb(32, 32, 32));
+    border-radius: 0 0 10px 10px;
+}
+
+.header img {
+  width: 80px;
+  height: 80px;
+}
