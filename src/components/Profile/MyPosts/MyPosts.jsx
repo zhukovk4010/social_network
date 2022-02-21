@@ -1,19 +1,17 @@
 import s from './MyPosts.module.css';
+import Post from './Post/Post';
 
 
 const MyPosts = () => {
     return (
         <section>
-            My posts
+            <textarea></textarea>
+            <button>Add post</button>
             <div>
                 New posts
                 <div className='posts'>
-                    <div className={s.item}>
-                        post 1
-                    </div>
-                    <div className='item'>
-                        post 2
-                    </div>
+                    <Post message='Займи сотку' like='20 &hearts;' />
+                    <Post message='Привет' like='15 &hearts;' />
                 </div>
             </div>
         </section>

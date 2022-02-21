@@ -17,7 +17,7 @@ const Profile = () => {
                     <div>Дата рождения: 19.05.1999</div>
                     <div>Город: Подольск</div>
                     <div>Образование: МИИГАиК</div>
-                    <div>vk.com/zhukovk4010</div>
+                    <div>Сайт:vk.com/zhukovk4010</div>
                 </div>
             </section>
             <MyPosts />
