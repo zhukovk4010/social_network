@@ -4,7 +4,7 @@ import MyPosts from './MyPosts/MyPosts';
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
             <div className={`${s.content} ${s.pictures}`}>
                 <img src='https://kiyavia.com/files/travel-provider/plyag-ukraine/beach_1920_2-min.jpg' />
             </div>

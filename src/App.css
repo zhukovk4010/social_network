@@ -14,3 +14,10 @@ body {
   grid-template-columns: 2fr 10fr;
   gap: 20px;
 }
+
+.app-wrapper-content {
+  grid-area: c;
+  background: linear-gradient(rgb(15, 15, 15), rgb(32, 32, 32));
+  color: rgb(55, 175, 255);
+  border-radius: 10px;
+} 
