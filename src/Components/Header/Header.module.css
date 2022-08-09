@@ -1,0 +1,12 @@
+.header {
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(168, 168, 168);
+    margin-bottom: 20px;
+}
+
+.header img {
+    height: 80%;
+    margin: auto 0;
+    padding-left: 10px;
+}

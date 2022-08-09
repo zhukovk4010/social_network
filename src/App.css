@@ -1,38 +1,12 @@
 .app-wrapper {
-  width: 1200px;
-  margin: 0 auto;
+  background-color: rgb(226, 226, 226);
+  height: 100vh;
+}
 
+.content-wrapper {
   display: grid;
-  grid-template-areas: 
-  'header header'
-  'menu content ';
-
-  grid-template-rows: 50px auto;
   grid-template-columns: 20% 80%;
-}
-
-.header {
-  background-color: aquamarine;
-  grid-area: header;
-}
-
-.header img {
-  height: 80%;
-  margin: auto 0;
-  padding-left: 10px;
-}
-
-.menu {
-  background-color: bisque;
-  grid-area: menu;
-}
-
-.content {
-  background-color: cornflowerblue;
-  grid-area: content;
-}
-
-.content .pictures img {
-  width: 100%;
-  height: 100px;
+  gap: 20px;
+  width: 1000px;
+  margin: 0 auto;
 }
