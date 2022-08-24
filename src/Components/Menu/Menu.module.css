@@ -2,13 +2,17 @@
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(168, 168, 168);
     border-radius: 10px;
-    padding: 5% 10%;
+    padding: 10px 20px;
 }
 
+
+
 .item {
-    color: rgb(43, 43, 43);
+    text-decoration: none;
+    color: rgb(48, 48, 48);
 }
 
 .active {
     color: rgb(60, 125, 255);
+    text-decoration: none;
 }

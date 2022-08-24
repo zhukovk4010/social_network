@@ -10,3 +10,9 @@
   width: 1000px;
   margin: 0 auto;
 }
+
+.app-wrapper-content {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+}
