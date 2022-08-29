@@ -3,6 +3,8 @@ import s from './Profile.module.css';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 
+
+
 const Profile = (props) => {
     return (
         <section>
@@ -11,7 +13,7 @@ const Profile = (props) => {
             </div>
 
             <ProfileInfo />
-            <MyPosts />
+            <MyPosts postData={props.profileState.posts} addPost={props.addPost} />
         </section>
     )
 }

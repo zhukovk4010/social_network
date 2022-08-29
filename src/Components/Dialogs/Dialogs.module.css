@@ -1,11 +1,6 @@
-.dialogs {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    padding: 10px 20px;
-}
-
-.dialog {
+.name_human {
     color: rgb(48, 48, 48);
+    text-decoration: none;
 }
 
 .active {
@@ -14,4 +9,29 @@
 
 .message {
     color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+.dialogs_items {
+    border-right: solid 1px rgb(190, 190, 190);
+}
+
+.dialog_item {
+    padding: 5px 0px 5px 5px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+    border-bottom: solid 1px rgb(190, 190, 190);
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+}
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 30px;
 }

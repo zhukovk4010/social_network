@@ -1,0 +1,14 @@
+.friends_container {
+    text-align: center;
+}
+
+.avatars_friends {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.avatar {
+    width: 25px;
+    border-radius: 90%;
+}

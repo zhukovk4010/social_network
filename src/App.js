@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header/Header';
 import Menu from './Components/Menu/Menu';
@@ -9,17 +8,19 @@ import Music from './Components/Music/Music';
 import Settings from './Components/Settings/Settings';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-const App = () => {
+const App = (props) => {
 	return (
 		<BrowserRouter>
 			<div className='app-wrapper'>
 				<Header />
 				<div className='content-wrapper'>
-					<Menu />
+					<Menu menuState={props.state.menu} />
 					<div className='app-wrapper-content'>
 						<Routes>
-							<Route path='/profile' element={<Profile />} />
-							<Route path='/dialogs' element={<Dialogs />} />
+							<Route path='/profile'
+								element={<Profile profileState={props.state.profilePage} addPost={props.addPost} />} />
+							<Route path='/dialogs'
+								element={<Dialogs dialogsState={props.state.dialogsPage} />} />
 							<Route path='/news' element={<News />} />
 							<Route path='/music' element={<Music />} />
 							<Route path='/settings' element={<Settings />} />
